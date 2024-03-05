@@ -38,7 +38,7 @@ namespace ConsoleAppSalario
             sal_liq = sal_liq - inss;
             sal_liq = sal_liq - irpf;
 
-            Console.WriteLine("O seu salário líquido é R$ " + sal_liq);
+            Console.WriteLine("O seu salário líquido é  " + sal_liq.ToString("C"));
             Console.ReadKey();
         }
     }
